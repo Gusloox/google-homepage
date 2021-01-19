@@ -1,0 +1,1 @@
+A clone of Google's Homepage that Odin Project has as an assignment.
