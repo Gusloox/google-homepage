@@ -1,17 +1,28 @@
+html{
+    height:100%;
+    padding: 0px;
+}
+*{
+
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
 main{
     margin: 30px 8px;
     padding: 15px;
 }
 
-ul{
+.ul-navbar{
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 13px 5px 10px 5px;
+    font-size: 12px;
 }
 a{
     text-decoration: none;
     color: black;
-    font-size: 13px;;
+    
 }
 li{
     margin: 10px;
@@ -21,27 +32,52 @@ li{
     float:right;
 }
 .sign-in{
-    border: 30px;
-    background-color:blue;
+    width:auto;
+    border:1px solid black;
+    border-radius: 6%;
+    background:#2196F3;
+    padding:7px 6px 7px 6px;
 }
 
-.img{
-    background: white;
-    padding: 10px;
-    margin: 0;
+.img-div{
+    display: block;
+    text-align: center;
 }
 img{
-    max-width: 100%;
-    display: block;
-    height: auto;
-    margin: 0 auto;
+    max-width: auto;
+    height: 100%;
+
 }
-.img-div {
-    background: white;
-    padding: 10px;
-    margin: 0;
-  }
 .bottom-logo{
-    margin: 15px 0 5px 0;
+    display:block;
+    padding: 10px;
 }
-  
+input{
+    width: 30%;
+    margin-bottom: 30px;
+    box-sizing:border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 12px 20px 12px 40px;
+}
+button{
+    width: 10%;
+    background:white;
+    border: 1px solid grey;
+    font-size:17px;
+    padding: 10px;
+}
+footer{
+    background-color: whitesmoke;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height:5%;
+    width: 100%;
+    overflow: hidden;
+    font-size: 15px;
+}
+.footer-nav{
+    margin:0px;
+    padding:20px 20px 20px 20px;
+}
